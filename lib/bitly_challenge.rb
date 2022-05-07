@@ -18,10 +18,9 @@ data_hash.each do |key, value|
   end
 end
 
-test = hash.sort_by{|k, v| v}.reverse.to_h
+hash = hash.sort_by { |_k, v| v }.reverse.to_h
 array = []
-test.each do |key, value|
-  new = {key => value}
-  array << new
+hash.map do |key, value|
+  array << { key => value }
 end
 pp array

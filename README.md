@@ -10,6 +10,7 @@ If installing using a different OS/setup follow the instructions on the followin
 https://www.ruby-lang.org/en/documentation/installation/
 ### Running the file
 In your terminal type
+
 ```
 ruby bitly_challenge.rb
 ```
