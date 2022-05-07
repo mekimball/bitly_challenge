@@ -1,16 +1,23 @@
 ### Requirements
 
 Ruby 2.7.2
+
 RSpec
+
+CSV Gem
+
+JSON Gem
 
 To install Ruby with homebrew type
 ```
-brew install ruby
+bbrew install ruby@2.7
 ```
 
-then install RSpec with the following command:
+then run the following commands:
 ```
 gem install rspec
+gem install csv
+gem install json
 ```
 If installing using a different OS/setup follow the instructions on the following page:
 https://www.ruby-lang.org/en/documentation/installation/
