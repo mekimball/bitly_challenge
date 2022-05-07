@@ -11,7 +11,7 @@ https://www.ruby-lang.org/en/documentation/installation/
 ### Running the file
 In your terminal type
 '''
-ruby bitly_challenge.rb
+ruby lib/bitly_challenge.rb
 '''
 
 and hit enter to see the JSON output
