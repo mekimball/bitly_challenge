@@ -10,7 +10,7 @@ JSON Gem
 
 To install Ruby with homebrew type
 ```
-bbrew install ruby@2.7
+brew install ruby@2.7
 ```
 
 then run the following commands:
